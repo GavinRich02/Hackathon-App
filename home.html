@@ -1,0 +1,60 @@
+<html>
+    <link rel="stylesheet" href="/styles/home.css">
+    <script src="/js/home.js" defer></script>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');</style>
+    <head>
+    </head>
+    <body>
+        <header id="side-bar">
+            <div id="nav">
+                <ul id="nav-bar">
+                    <li>
+                        <button class="button" id="home">Home</button>
+                    </li>
+                    <li>
+                        <button class="button" id="grades">Grades</button>
+                    </li>
+                    <li>
+                        <button class="button" id="jobs">Job Board</button>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div id="home-view">
+            <div id="header">
+                <h1 id="welcome">Welcome</h1>
+            </div>
+
+            <div id="widgets">
+                <div id="weather-widget">
+                    <li class="list">
+                        <span id="location"></span>
+                    </li>
+                    <li class="list">
+                        <span id="weather"></span>
+                    </li>
+                    <li class="list">
+                        <span id="temp"></span>
+                    </li>
+                </div>
+            </div>
+        </div>
+
+        <div id="grades-view">
+            <ul id="classes">
+                <li>
+                    <div class="class">
+                        <input type="text" placeholder="Number of Credits">
+                        <input type="text" placeholder="Grade">
+                    </div>
+                </li>
+            </ul>
+
+            <button id="addClass">Add Class</button>
+        </div>
+
+        <div id="jobs-view">
+        </div>
+    </body>
+</html>

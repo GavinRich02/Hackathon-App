@@ -1,0 +1,46 @@
+html {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color: #003380;
+    color: #ff9900;
+}
+
+#login {
+    margin-top: 25vh;
+    padding-bottom: 50vh;
+}
+
+a {
+    text-decoration: none;
+    color: #ff9900;
+    padding-left:2vw;
+    padding-right: 2vw;
+}
+
+input {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#nav {
+    display: inline-block; 
+	width: 500px; 
+	min-height: 50px; 
+	background-color: #eee; 
+	height: auto;
+}
+
+#signin {
+    background-color: #ff9900;
+    color: white;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    display: inline-block;
+    margin-top: 5vh;
+}
